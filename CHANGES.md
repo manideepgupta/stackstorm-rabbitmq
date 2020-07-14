@@ -1,4 +1,6 @@
 # Change Log
+# 0.5.4
+- Fixed bug in `publish_message` where the parameter `password` was set to `secret: true`
 
 # 0.5.3
 
