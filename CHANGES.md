@@ -1,5 +1,9 @@
 # Change Log
 
+# 0.5.4
+
+- Fixed bug in `publish_message` where the parameter `password` was set to `secret: true`
+
 # 0.5.3
 
 - Fixed bug in `queues_sensor` where the parameter `body` was being returned as `byte` and not a `string`
